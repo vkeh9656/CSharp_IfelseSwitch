@@ -82,6 +82,7 @@
             this.btnIfResult.TabIndex = 4;
             this.btnIfResult.Text = "Number 비교";
             this.btnIfResult.UseVisualStyleBackColor = true;
+            this.btnIfResult.Click += new System.EventHandler(this.btnIfResult_Click);
             // 
             // lblIfResult
             // 
@@ -126,6 +127,7 @@
             this.btnswitchResult.TabIndex = 8;
             this.btnswitchResult.Text = "선택 요일 확인";
             this.btnswitchResult.UseVisualStyleBackColor = true;
+            this.btnswitchResult.Click += new System.EventHandler(this.btnswitchResult_Click);
             // 
             // lblSwitchResult
             // 
